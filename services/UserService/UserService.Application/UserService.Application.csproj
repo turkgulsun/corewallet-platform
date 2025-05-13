@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\UserService.Domain\UserService.Domain.csproj" />
+  </ItemGroup>  
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UserSecretsId>17fba340-6772-4c5f-8c0e-0444d0eefa40</UserSecretsId>
+  </PropertyGroup>
+
+
+</Project>

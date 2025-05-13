@@ -1,0 +1,10 @@
+**/bin/
+**/obj/
+*.md
+*.user
+.vscode/
+.idea/
+*.csproj.user
+
+appsettings.json
+appsettings.Development.json

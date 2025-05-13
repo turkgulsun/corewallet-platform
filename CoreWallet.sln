@@ -1,0 +1,92 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "services", "services", "{7220682D-98CE-4DC8-9655-A48437C6C378}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountingService", "services\AccountingService\AccountingService.csproj", "{F6CDA1D0-7D69-4E9E-816C-00E481E8BB61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiGateway", "services\ApiGateway\ApiGateway.csproj", "{16E96966-D4CC-4CDF-85AD-E08C643DBC5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankIntegrationService", "services\BankIntegrationService\BankIntegrationService.csproj", "{B6E7B64A-C3B5-4640-BBB6-B53FD778332C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CampaignService", "services\CampaignService\CampaignService.csproj", "{3725B5A9-283D-4825-B438-E3346AD8B813}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KycService", "services\KycService\KycService.csproj", "{F71BB00D-5709-4024-89E4-1793F5702038}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationService", "services\NotificationService\NotificationService.csproj", "{845F0FC7-87C8-42B5-BE91-B2FEA47C74E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransactionService", "services\TransactionService\TransactionService.csproj", "{680D2608-7DC4-44B0-A65E-C6CC6A6DD7C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserService", "services\UserService\UserService.csproj", "{930828F6-6D9E-4354-9AC4-BB0995A0066F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WalletService", "services\WalletService\WalletService.csproj", "{F6D114DA-E9A6-435D-BD66-C8923900C4D3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "shared", "shared", "{7DB4E773-62CD-4406-B7EB-EFD4A34B7C1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreWallet.Shared", "shared\CoreWallet.Shared\CoreWallet.Shared.csproj", "{2E1773EE-4772-43CA-9B8C-F79A868770BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6CDA1D0-7D69-4E9E-816C-00E481E8BB61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6CDA1D0-7D69-4E9E-816C-00E481E8BB61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6CDA1D0-7D69-4E9E-816C-00E481E8BB61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6CDA1D0-7D69-4E9E-816C-00E481E8BB61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16E96966-D4CC-4CDF-85AD-E08C643DBC5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16E96966-D4CC-4CDF-85AD-E08C643DBC5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16E96966-D4CC-4CDF-85AD-E08C643DBC5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16E96966-D4CC-4CDF-85AD-E08C643DBC5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6E7B64A-C3B5-4640-BBB6-B53FD778332C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6E7B64A-C3B5-4640-BBB6-B53FD778332C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6E7B64A-C3B5-4640-BBB6-B53FD778332C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6E7B64A-C3B5-4640-BBB6-B53FD778332C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3725B5A9-283D-4825-B438-E3346AD8B813}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3725B5A9-283D-4825-B438-E3346AD8B813}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3725B5A9-283D-4825-B438-E3346AD8B813}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3725B5A9-283D-4825-B438-E3346AD8B813}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F71BB00D-5709-4024-89E4-1793F5702038}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F71BB00D-5709-4024-89E4-1793F5702038}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F71BB00D-5709-4024-89E4-1793F5702038}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F71BB00D-5709-4024-89E4-1793F5702038}.Release|Any CPU.Build.0 = Release|Any CPU
+		{845F0FC7-87C8-42B5-BE91-B2FEA47C74E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{845F0FC7-87C8-42B5-BE91-B2FEA47C74E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{845F0FC7-87C8-42B5-BE91-B2FEA47C74E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{845F0FC7-87C8-42B5-BE91-B2FEA47C74E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{680D2608-7DC4-44B0-A65E-C6CC6A6DD7C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{680D2608-7DC4-44B0-A65E-C6CC6A6DD7C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{680D2608-7DC4-44B0-A65E-C6CC6A6DD7C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{680D2608-7DC4-44B0-A65E-C6CC6A6DD7C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{930828F6-6D9E-4354-9AC4-BB0995A0066F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{930828F6-6D9E-4354-9AC4-BB0995A0066F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{930828F6-6D9E-4354-9AC4-BB0995A0066F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{930828F6-6D9E-4354-9AC4-BB0995A0066F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6D114DA-E9A6-435D-BD66-C8923900C4D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6D114DA-E9A6-435D-BD66-C8923900C4D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6D114DA-E9A6-435D-BD66-C8923900C4D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6D114DA-E9A6-435D-BD66-C8923900C4D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E1773EE-4772-43CA-9B8C-F79A868770BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E1773EE-4772-43CA-9B8C-F79A868770BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E1773EE-4772-43CA-9B8C-F79A868770BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E1773EE-4772-43CA-9B8C-F79A868770BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F6CDA1D0-7D69-4E9E-816C-00E481E8BB61} = {7220682D-98CE-4DC8-9655-A48437C6C378}
+		{16E96966-D4CC-4CDF-85AD-E08C643DBC5E} = {7220682D-98CE-4DC8-9655-A48437C6C378}
+		{B6E7B64A-C3B5-4640-BBB6-B53FD778332C} = {7220682D-98CE-4DC8-9655-A48437C6C378}
+		{3725B5A9-283D-4825-B438-E3346AD8B813} = {7220682D-98CE-4DC8-9655-A48437C6C378}
+		{F71BB00D-5709-4024-89E4-1793F5702038} = {7220682D-98CE-4DC8-9655-A48437C6C378}
+		{845F0FC7-87C8-42B5-BE91-B2FEA47C74E7} = {7220682D-98CE-4DC8-9655-A48437C6C378}
+		{680D2608-7DC4-44B0-A65E-C6CC6A6DD7C4} = {7220682D-98CE-4DC8-9655-A48437C6C378}
+		{930828F6-6D9E-4354-9AC4-BB0995A0066F} = {7220682D-98CE-4DC8-9655-A48437C6C378}
+		{F6D114DA-E9A6-435D-BD66-C8923900C4D3} = {7220682D-98CE-4DC8-9655-A48437C6C378}
+		{2E1773EE-4772-43CA-9B8C-F79A868770BB} = {7DB4E773-62CD-4406-B7EB-EFD4A34B7C1E}
+	EndGlobalSection
+EndGlobal
