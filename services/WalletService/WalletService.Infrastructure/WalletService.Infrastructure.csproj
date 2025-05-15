@@ -3,6 +3,12 @@
   <ItemGroup>
     <ProjectReference Include="..\WalletService.Application\WalletService.Application.csproj" />
     <ProjectReference Include="..\WalletService.Domain\WalletService.Domain.csproj" />
+    <ProjectReference Include="..\..\..\shared\CoreWallet.Shared\CoreWallet.Shared.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.5" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="9.0.4" />
   </ItemGroup>
 
   <PropertyGroup>
